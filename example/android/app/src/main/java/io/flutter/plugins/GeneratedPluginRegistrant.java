@@ -16,9 +16,9 @@ public final class GeneratedPluginRegistrant {
   private static final String TAG = "GeneratedPluginRegistrant";
   public static void registerWith(@NonNull FlutterEngine flutterEngine) {
     try {
-      flutterEngine.getPlugins().add(new com.example.flutter_storage_info.FlutterStorageInfoPlugin());
+      flutterEngine.getPlugins().add(new com.jaberio.flutter_storage_info.FlutterStorageInfoPlugin());
     } catch (Exception e) {
-      Log.e(TAG, "Error registering plugin flutter_storage_info, com.example.flutter_storage_info.FlutterStorageInfoPlugin", e);
+      Log.e(TAG, "Error registering plugin flutter_storage_info, com.jaberio.flutter_storage_info.FlutterStorageInfoPlugin", e);
     }
     try {
       flutterEngine.getPlugins().add(new dev.flutter.plugins.integration_test.IntegrationTestPlugin());

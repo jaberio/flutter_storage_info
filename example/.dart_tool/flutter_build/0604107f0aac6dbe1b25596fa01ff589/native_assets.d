@@ -1,1 +1,0 @@
- C:\\Users\\Jay\\Desktop\\dev\\flutter-packages\\flutter_storage_info-0.0.5\\example\\.dart_tool\\flutter_build\\0604107f0aac6dbe1b25596fa01ff589\\native_assets.yaml: 

@@ -1,3 +1,16 @@
+### Version 0.1.0 - 2026-01-08
+
+#### Changed
+- **Branding**: Refactored package name and Android namespace to `com.jaberio.flutter_storage_info`.
+- **Standardization**: Cleaned repository of build artifacts and IDE files.
+- **Code Quality**: Applied `dart format`, resolved all linter warnings using `flutter_lints`, and added `analysis_options.yaml`.
+- **Android**: Improved safety checks for external storage detection.
+
+#### Added
+- **Tests**: Introduced a unit test suite for the plugin.
+
+---
+
 ### Initial Release (Version 0.0.1)
 
 - **Methods:**

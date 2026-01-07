@@ -138,5 +138,5 @@ Add the following permissions to your `AndroidManifest.xml` file:
 
 ## Issues and Feedback
 
-Please file [issues](https://github.com/JaberQayad/flutter_storage_info/issues) to send feedback or report a bug. Thank you!
+Please file [issues](https://github.com/jaberio/flutter_storage_info/issues) to send feedback or report a bug. Thank you!
 

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_storage_info_example">
+    package="com.jaberio.flutter_storage_info_example">
 
 
     <!-- The Permissions to read and write to the external storage -->
