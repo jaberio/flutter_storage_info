@@ -10,7 +10,7 @@ To use this plugin, add `flutter_storage_info` as a [dependency in your pubspec.
 
 ```yaml
 dependencies:
-  flutter_storage_info: ^0.0.6
+  flutter_storage_info: ^1.0.0
 ```
 
 ```dart
@@ -120,7 +120,7 @@ Add the following permissions to your `AndroidManifest.xml` file:
 
 ```xml
 <manifest xmlns:android="https://schemas.android.com/apk/res/android"
-          package="com.example.app">
+          package="com.jaberio.app">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -136,7 +136,23 @@ Add the following permissions to your `AndroidManifest.xml` file:
 - macOS (❌)
 - Windows (❌)
 
+## Automated Publishing
+
+This repository is configured to automatically publish to pub.dev when a new release tag is pushed.
+
+### How to use:
+1.  Bump the version in `pubspec.yaml` and update `CHANGELOG.md`.
+2.  Commit and push the changes to `main`.
+3.  Create and push a new tag:
+    ```bash
+    git tag v1.0.0
+    git push origin v1.0.0
+    ```
+The GitHub Action will automatically run analysis, tests, and publish the package if all checks pass.
+
+> [!IMPORTANT]
+> To enable this, you must [enable automated publishing](https://dart.dev/guides/libraries/automated-publishing) on pub.dev for this package and link it to this GitHub repository.
+
 ## Issues and Feedback
 
 Please file [issues](https://github.com/jaberio/flutter_storage_info/issues) to send feedback or report a bug. Thank you!
-
