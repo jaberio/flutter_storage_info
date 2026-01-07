@@ -1,4 +1,4 @@
-### Version 0.1.0 - 2026-01-08
+### Version 1.0.0 - 2026-01-08
 
 #### Changed
 - **Branding**: Refactored package name and Android namespace to `com.jaberio.flutter_storage_info`.
