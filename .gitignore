@@ -17,6 +17,7 @@ build/
 *.metadata
 *.flutter-plugins
 *.flutter-plugins-dependencies
+local.properties
 
 # Generated files
 *.dart.js
@@ -26,6 +27,29 @@ build/
 *.info.json
 *.snapshot
 *.symbols
+
+# Android specific
+**/android/local.properties
+**/android/app/local.properties
+**/android/sdk_manager_config.xml
+**/android/key.properties
+**/android/app/src/main/res/raw/
+**/android/.gradle/
+**/android/build/
+**/android/captures/
+
+# iOS specific
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/local.properties
+**/ios/Runner/GeneratedPluginRegistrant.h
+**/ios/Runner/GeneratedPluginRegistrant.m
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/DerivedData/
 
 # macOS specific
 .DS_Store
