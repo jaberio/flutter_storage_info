@@ -42,9 +42,15 @@ void main() {
 
   test('isLowOnStorage internal', () async {
     // 0.524 / 1.0 = 0.524 < 0.9 (threshold) => false
-    expect(await FlutterStorageInfo.isLowOnStorage(DeviceStorageType.internal, threshold: 0.9), false);
-    
+    expect(
+        await FlutterStorageInfo.isLowOnStorage(DeviceStorageType.internal,
+            threshold: 0.9),
+        false);
+
     // 0.524 / 1.0 = 0.524 >= 0.5 (threshold) => true
-    expect(await FlutterStorageInfo.isLowOnStorage(DeviceStorageType.internal, threshold: 0.5), true);
+    expect(
+        await FlutterStorageInfo.isLowOnStorage(DeviceStorageType.internal,
+            threshold: 0.5),
+        true);
   });
 }
