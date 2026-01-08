@@ -5,6 +5,7 @@
 - **Standardization**: Cleaned repository of build artifacts and IDE files.
 - **Code Quality**: Applied `dart format`, resolved all linter warnings using `flutter_lints`, and added `analysis_options.yaml`.
 - **Android**: Improved safety checks for external storage detection.
+- **Documentation**: Resized screenshot in `README.md` for better presentation.
 
 #### Added
 - **Tests**: Introduced a unit test suite for the plugin.
