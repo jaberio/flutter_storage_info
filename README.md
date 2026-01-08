@@ -110,7 +110,8 @@ print('Is Low on Storage: $isLow');
 ```
 
 ## Screenshot
-![Screenshot](example/screenshot/Screenshot.gif)
+
+<img src="example/screenshot/Screenshot.gif" width="300" alt="Screenshot"/>
 
 ## Permissions
 
@@ -136,22 +137,6 @@ Add the following permissions to your `AndroidManifest.xml` file:
 - macOS (❌)
 - Windows (❌)
 
-## Automated Publishing
-
-This repository is configured to automatically publish to pub.dev when a new release tag is pushed.
-
-### How to use:
-1.  Bump the version in `pubspec.yaml` and update `CHANGELOG.md`.
-2.  Commit and push the changes to `main`.
-3.  Create and push a new tag:
-    ```bash
-    git tag v1.0.0
-    git push origin v1.0.0
-    ```
-The GitHub Action will automatically run analysis, tests, and publish the package if all checks pass.
-
-> [!IMPORTANT]
-> To enable this, you must [enable automated publishing](https://dart.dev/guides/libraries/automated-publishing) on pub.dev for this package and link it to this GitHub repository.
 
 ## Issues and Feedback
 
